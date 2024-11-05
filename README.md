@@ -74,10 +74,60 @@ Exploratory Data Analysis (EDA) is an interative process of analyzing and visual
 ---
   These are some of the queries and formular used;
 ```EXCEL
-
-
-
-
+=AVERAGE(I2:I33788)
+```
+```EXCEL
+=COUNTIF(D:D,"Basic")
+```
+```SQL
+Select Region,
+	count(CustomerId) as Num_of_Customers
+	from [dbo].[Customer Data set]
+	group by Region
+```
+```SQL
+Select SubscriptionType,
+	count(CustomerId) as Num_of_Customers
+	from [dbo].[Customer Data set]
+	group by SubscriptionType
+```
+```SQL
+Select [CustomerName],[Canceled],[SubscriptionStart]
+	from [dbo].[Customer Data set]
+	where [Canceled] = 0
+	and MONTH([SubscriptionStart]) between 1 and 6
+```
+```SQL
+Select count(CustomerId) as Num_of_Customers,
+	avg([Subscription_Duration])
+	as Average_Subscription_Duration
+	from [dbo].[Customer Data set]
+	where [SubscriptionEnd] is not null
+```
+```SQL
+Select [CustomerName], [SubscriptionType], [SubscriptionStart], [SubscriptionEnd]
+	from [dbo].[Customer Data set]
+	where 
+	datediff(month,[SubscriptionStart],[SubscriptionEnd])>=12
+```
+```SQL
+Select [SubscriptionType],
+	sum([Revenue]) as Total_Revenue
+	from [dbo].[Customer Data set]
+	group by [SubscriptionType]
+```
+```SQL
+Select Top 3 [Region],[Canceled]
+	from [dbo].[Customer Data set]
+```
+```SQL
+Select sum
+	(case when [Canceled] = 0
+	then 1 else 0 end) as Active_Subscriptions,
+	sum(case when [Canceled] = 1
+	then 1 else 0 end) as Canceled_Subscriptions
+	from [dbo].[Customer Data set]
+```
 
 ### Insight Visualisation
 ---
