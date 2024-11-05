@@ -1,4 +1,4 @@
-# Adeyemo-Oluwatoyosi-Gorgeous-LITA-Project-2
+# Adeyemo Oluwatoyosi Gorgeous LITA Project (Subscription Customer Data)
 
 ## Project Title: _*Customer Segmentation for a Subscription Service*_
 
@@ -17,7 +17,9 @@
 
 [Data Analysis](#data-analysis)
 
-[Insight Visualization](#insight-visualization)
+[Insight Visualization](insight-visualization)
+
+[Outcome](outcome)
 
 ### Project Outline
 ---
@@ -69,6 +71,10 @@ Exploratory Data Analysis (EDA) is an interative process of analyzing and visual
   - To show customers with subscriptions longer than 12 months.
   - To calculate total revenue by subscription type.
   - To exhibit the top 3 regions by subscription cancellations.
+
+![Pivot Table Sub](https://github.com/user-attachments/assets/3f062709-f90e-4eff-a217-6899d303625b)
+
+![SQL Customer](https://github.com/user-attachments/assets/80be15dd-3351-4bc3-bf60-26c9addd2eda)
 
 ### Data Analysis
 ---
@@ -129,8 +135,12 @@ Select sum
 	from [dbo].[Customer Data set]
 ```
 
-### Insight Visualisation
+### Insight Visualization
 ---
 
+![Customer Dashboard](https://github.com/user-attachments/assets/d2fd5aba-b10a-4d95-9e18-785a3dbc961f)
 
-### Conclusion
+### Outcome
+---
+Conclusively, we were able to get the region with the highest revenue and the subscription type that generate the highest revenue. Also, we were able to detect the number and percentage of customers that canceled their subscription. We were able to identify the subscription type that is most used by the customers. Additionally, we were able to denote how much revenue is lost or gained from cancellation.  
+These trends will aid the marketing efforts and strategies of this particular subscription service company. It will also allow them to know areas and aspect were they are met to do better in order to render a more effective service.
