@@ -5,11 +5,11 @@
 ---
 ### Content
 ---
-[Project Overview](#project-overview)
+[Project Outline](#project-outline)
 
-[Data Sources](#data-sources)
+[Source Datasets](#source-datasets)
 
-[Tools Used](#tools-used)
+[Data Tools Used](#data-tools-used)
 
 [Data Cleaning and Preparations](#data-cleaning-and-preparations)
 
@@ -19,20 +19,22 @@
 
 [Data Visualization](#data-visualization)
 
-### Project Overview
+### Project Outline
 ---
   This Project is aimed at analysing customer data for a subscription service to identify segments and trends. The goal is to understand customer behaviour, track subscription types, and identify important trends in cancellations and renewals. These trends are to be displayed with beautiful dashboard.
   
-  ### Data Sources
+  ### Source Datasets
 ---
-  The data was provided by The Incubator Hub: Ladies in Tech.
+  The data was provided by The Incubator Hub: Ladies in Tech Africa.
   
-### Tools Used
+### Data Tools Used
 ---
   - Microsoft Excel [Download here](https://www.microsoft.com)
       1. *For Data cleaning*
       2. *For Analysis*
       3. *For summarizing the customers subscription pattern*
+      4. *For Creating Aditional colunm*
+      5. *For Creating Metrics that shows the calucation of the avareage subscription duration and the popular subscription*
   - SQL (Structured Query Language)
       1. *Quering of data*
   - Power BI
