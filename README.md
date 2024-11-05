@@ -17,7 +17,7 @@
 
 [Data Analysis](#data-analysis)
 
-[Data Visualization](#data-visualization)
+[Insight Visualization](#insight-visualization)
 
 ### Project Outline
 ---
@@ -36,9 +36,14 @@
       4. *For Creating Aditional colunm*
       5. *For Creating Metrics that shows the calucation of the avareage subscription duration and the popular subscription*
   - SQL (Structured Query Language)
-      1. *Quering of data*
+      1. *For Quering of data*
+           
   - Power BI
-      1. *Data Visualisation*
+      1. *For Data Visualisation*
+      2. *For transform data to show the column quality, column distribution and column profile. This is to show if there is any error, blank cell or if the columns are valid.*
+      3. *For creating new measure that calculate average subscription duration.*
+      4. *Using conditional column to create additional column for canceled column*
+      5. *Using Q&A to get the number of canceled subscription, the active subscription and the top subcription.
 
 ### Data Cleaning and Preparations
 ---
@@ -47,16 +52,34 @@
 - Data Inspection
 - Removal of Duplicates
 - Adding of necessary column (Subscription Duration Colunm)
+- The column quality, distribution and profile were checked 
     
   ### Exploratory Data Analysis
   ---
 Exploratory Data Analysis (EDA) is an interative process of analyzing and visualizing data to understand its fundamental structure, patterns, most importantly relationships.
   This involves the use of pivot tables and SQL commands to make an exploration of the data to answer questions about the data, such as;
+  - The subcription patterns.
+  - The top subscription type.
+  - The region with the highest revenue.
+  - The month with the highest revenue.
+  - To find the total number of customers from each region.
+  - To show the most popular subscription type by the number of customer.
+  - To expose the customers who canceled their subscription within 6 months.
+  - To calculate the average subscription duration for all cuatomers.
+  - To show customers with subscriptions longer than 12 months.
+  - To calculate total revenue by subscription type.
+  - To exhibit the top 3 regions by subscription cancellations.
 
 ### Data Analysis
 ---
+  These are some of the queries and formular used;
+```EXCEL
 
-### Data Visualization
+
+
+
+
+### Insight Visualisation
 ---
 
 ### Conclusion
